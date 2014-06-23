@@ -1,5 +1,10 @@
 ## function returns an inverse of a matrix
 
+# The following function does the following:
+# 1. set the value of a matrix
+# 2. gets the value of a matrix
+# 3. sets the inverse value of a matrix
+# 4. gets the inverse value of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -16,6 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
+# the following fuction solves and creates the inverse
+# of a previously inputted matrix. If it has been solved
+# previously the cachced data is retrieved instead
 
 cacheSolve <- function(x, ...) {
   m <- x$getinv()
